@@ -4,82 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href = "css/style.css">
+    <title>Trevor Carver's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-             <li><a href = "index.html">Home</a></li>
-             <li><a href = "#">Projects</a></li>
-             <li><a href = "#">About</a></li>
-         </ul>
-    </nav>
-    <body>
-            
-            <header>
-        <h1>Hi! My name is Trevor Carver.</h1>
-        <h3>I am currently pursuing a degree in Web Design and Development as Lewis Clark State College.<br>
-        During my time here I have come to experience the many different aspects of Design and Development. <br>
-        I am familiar with both sides but I do prefer the Development side. I have covered many different languages including: C#, Javascript, HTML/CSS, PHP, JSON, and XML. 
-        <br>I have also been working with SQL databases and have a pretty good understanding of them.
-        </h3>
-        </header>
-        <main>
-                
-                <div id = "citpt111">
-                       
-                <p>This <a href = "http://bonsai.lcsc.edu/tacarver/CITPT111/Final/"><strong>link</strong></a> will take you to my first "major" website that I made.
-                    
-                    <br>I made this as a final for my HTML/CSS class. It it a website about the alabama football team. It shows I have a somehwat "decent" understand of HTML, but could use improvement on CSS. CSS is something that I have always struggled with, but I find it important that you should know as a potential employer what my strengths AND weaknesses are.
-                    <br>Shown below is a picture of the homepage if for some reason it didn't load for you.
-                    <aside> <img src = "images/Final111.png" alt="Football Website" width="400" height="300" class="responsive"></aside>
-                </p>
-             
-                
-            </div>
-            
-            <div id ="citpt213">
-                <p>This next project is my final that I made for my SQL class. 
-                    <br>
-                    This <a href = "http://bonsai.lcsc.edu/tacarver/CITPT213/Final/"><strong>link</strong></a> will take you to it.
-                    <br>It may look simple(at least design wise), but it actually has quite a bit behind it. All the reviews the user enters are stored into a database along with their username.
-                    <br>The database then takes that newly stored review and places it back onto the page. The main challenges when creating this were making the getting the data to send to the database and then getting the data to return to the webpage. 
-                    This shows I have a good understanding of SQL, but again it points out the negative effects of bad CSS. I truly am working on my CSS, and I hope you can bear with me while I work on it.
-                </p>
-                
-            
-                <img src = "images/CITPT213GameReview.jpg" alt="Game Review Website" width="400" height="300" class="responsive">
-            </div>
-            <div id = "reminderApp">
-                <p>The final thing(for now) that I have to share is my Reminder App. I made it as a final for my CITPT 227 class. It is made in Ionic and therefore is not hosted on a web server.
-                    The first draft of this projects has it to where all 3 aspects of the application are on separate pages rather than just one. 
-                    When I fix up my application I will be changing it to where it is all on one page, in turn wasting less resources and white space on other pages.
-                    The styling wasn't my biggest concern when making this. I was more focused on actually getting it to work since it was one of the harder projects for me. 
-                    <br><strong>I will be sharing images of the webpage and then describing what each is representing since the website is not hosted.</strong>
-                    <br>
-                    We see in the first image what the home page looks like. This is where the data that we gather through the other pages gets stored. <br>
+    <header>
+            <nav class="navbar" style="background-color:#000000">
+                    <ul class= "nav">
+                         <li class = "nav-item"><a class="nav-link" id="nav1" href = "#about">About</a></li>
+                         <li class = "nav-item"><a class="nav-link" id="nav2" href = "#projects">Projects</a></li>
+                         <li class = "nav-item"><a class="nav-link" id="nav3" href = "#contact">Contact</a></li>
+                     </ul>
+            </nav>
+    </header>
+    <main>
         
-                    <img src = "images/page1.png" alt="home page" width="400" height="300" class="responsive">
-                    <br>
-                    
-                    <p>In the 2nd image we see the date selector. The user selects a date and it stores it into a date variable which eventually gets
-                     passed back to the home page.</p>
-                    <img src= "images/page2.png" alt="Date page" width="400" height="300" class="responsive">
-                    <p>In the 3rd image we see the time selector. It is also stored into a variable and gets passed back to the home page.</p>
-                    <img src= "images/page3.png" alt="time page" width="400" height="300" class="responsive">
-                    <p>In the final image we see reminder selector. This is where the user puts in what the task they need to reminded of is. It is also stored in a variable and passed back to the home page.
-                        When you click the Complete button it takes you back to the home page and shows you the reminder you created(reference image 1).
-                    </p>
-                    <img src= "images/page4.png" width="400" height="300" class="responsive">
-                  
-            </div>
-            </main>
+        <section id="about">
+            <h2>About Me</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-12">
+                        <h5>My Name is Trevor Carver and I am currently pursuing a degree in Web Design/Developement at Lewis-Clark State College(LCSC). Over the years I have learned a few different coding languages.
+                           I have worked primarily with front-end languages such as HTML, CSS, and Javascript. I have the most experience with these three and have gotten decent at them over the years. 
+                           Other languages I have used are SQL, PHP, JSON, and C#. PHP being the one I am the LEAST familiar with, but I am always learning and adjusting to what I am needed for.
+                           The projects I have listed below will showcase my usage of the various languages I know. 
+                        </h5>   
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <img src = "images/photo.jpg" alt="Photo of Me" width="500" height="350" class="responsive">
+                    </div>
+                </div>
+
+        </section>
         
-            <footer>Property of Trevor Carver Interprises&copy; 
-                <p> <br>Email: tcarver371@gmail.com<br>Phone: 208-790-1025
-                    
-                </p>
-            </footer>
+        <section id="projects">
+            <h2>Projects</h2>
+                <div class="row">
+                    <div class="col">
+                        <h4>Football Website</h4>
+                        <img src = "images/Final111.png" alt="Football Website" width="500" height="350" class="responsive">
+                            <p>This <a href = "http://bonsai.lcsc.edu/tacarver/CITPT111/Final/" target="_blank"><strong>link</strong></a> will take you to my first "major" website that I made.
+                                I made this as a final for my HTML/CSS class. It it a website about the alabama football team. It shows I have a somehwat "decent" understand of HTML, but could use improvement on CSS.
+                            </p>
+                    </div>
+                    <div class="col">
+                        <h4>Christmas Tree Website</h4>
+                        <img src="images/christmasSite.png" width="400" height="400" alt="Christmas tree Website" class="responsive">
+                        <p>This is one of my more recent projects. It is completely HTML and CSS based. It has a better color scheme and flow to the website, which is a big improvement to the football website. it features a responsive mobile design which properly adjusts everything on the page to accomodate to everyone.
+                                <a href="https://trevorschristmaswebsite.netlify.com/" target="_blank">Link to Website</a>
+                        </p>
+                        
+                    </div>
+                
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4>Game Review Site</h4>
+                        <img src = "images/CITPT213GameReview.jpg" alt="Game Review Website" width="500" height="350" class="responsive">
+                        <p>This next project is my final that I made for my SQL class. It looks simple based on the design, 
+                            but there is quite a bit that goes into the backend. 
+                            When the Add button is clicked it takes the data the user entered(which has to be valid) and stores it into a database I created. 
+                            It then reloads the page and retrieves the data that it just sent to the database and displays it under the game image in the form of username: review. 
+                            I haven't had alot of practice with this since then, but I believe I could hop right back into if needed. 
+                            <a href = "http://bonsai.lcsc.edu/tacarver/CITPT213/Final/" target="_blank">Link to Site</a>  
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4>C# Windows Calculator</h4>
+                        <img src="images/calculator.png" alt="Windows Calculator" width="500" height="350" class="responsive">
+                        <p>This is Windows Calculator I created in my C# class. It has full functionality and accounts for invalid inputs. 
+                            It is built entirely with C# in Visual Studio and is only 300 lines(without the comments)of code. 
+                            This project was one that I spent a little extra time on so I could make sure everything was perfect. It's one of my better projects.
+                            <a href = "https://github.com/tcarver371/calculator" target="_blank">Link to Files</a>
+                        </p>
+                    </div>
+                </div>
+                    <h4>Reminder App</h4>
+                        <p>The final thing(for now) that I have to share is my Reminder App. I made it as a final for my CITPT 227 class. It is made in Ionic and therefore is not hosted on a web server.
+                                The first draft of this project has it to where all 3 aspects of the application are on separate pages rather than just one. 
+                                When I fix up my application I will be changing it to where it is all on one page, in turn wasting less resources and white space on other pages.
+                                The styling wasn't my biggest concern when making this. I was more focused on actually getting it to work since it was one of the harder projects for me. 
+                                I will be sharing images of the webpage and then describing what each is representing since the website is not hosted.</p>
+                <div class="row" id = "reminderApp">
+                    <div class = "col">
+                            <img src = "images/page1.png" alt="home page" width="400" height="300" class="responsive">
+                            <p> We see in the first image what the home page looks like. This is where the data that we gather through the other pages gets stored.</p>
+                    </div>
+                            
+                    <div class = "col">     
+                            <img src= "images/page2.png" alt="Date page" width="400" height="300" class="responsive">
+                            <p>In the 2nd image we see the date selector. The user selects a date and it stores it into a date variable which eventually gets
+                                    passed back to the home page.</p>
+                    </div>  
+                    <div class = "col">
+                            <img src= "images/page3.png" alt="time page" width="400" height="300" class="responsive">
+                            <p>In the 3rd image we see the time selector. It is also stored into a variable and gets passed back to the home page.</p>
+                    </div>
+        
+                    <div class = "col"> 
+                            <img src= "images/page4.png" alt="Set Reminder Page" width="400" height="300" class="responsive">
+                            <p>In the final image we see reminder selector. This is where the user puts in what the task they need to reminded of is. It is also stored in a variable and passed back to the home page.
+                                    When you click the Complete button it takes you back to the home page and shows you the reminder you created(reference image 1).
+                                </p>
+                    </div>
+                </div>
+
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <h3>You can either <a href ="mailto:tcarver371@gmail.com" target="_blank">Email</a> me</h3>
+            <h3>Or call me at 208-790-1025</h3>
+        </section>
+    </main>
+    <footer>
+        <p>Property of Trevor Carver&copy;</p>
+    </footer>
+    
 </body>
 </html>
